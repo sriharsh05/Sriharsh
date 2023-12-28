@@ -124,7 +124,8 @@ video {
   border-radius: 1rem;
   display: flex;
   flex-direction: column;
-  background: #fff;
+  background: #b1aeb7;
+  /* background: #d1cfd8; */
   box-shadow: rgba(0, 0, 0, 0.05) 0px 5px 10px;
 }
 

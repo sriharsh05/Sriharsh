@@ -2,6 +2,7 @@ import styled from "@emotion/styled";
 
 export const ContactWrapper = styled.div`
   margin-top: 5rem;
+  background-color: #f5f5f5;
 `;
 
 export const Image = styled.img`
