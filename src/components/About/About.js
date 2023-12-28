@@ -25,14 +25,12 @@ function About() {
             <Image src="/man-svgrepo-com.svg" alt="man-svgrepo" />
           </ScrollAnimation>
           <div className="AboutBio">
-            <ScrollAnimation animateIn="fadeInLeft">
               <VerticalTimeline>
                 <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{
                     background: "#1f163e",
                     color: "#fff",
-                    marginLeft: "10px",
                   }}
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(33, 150, 243)",
@@ -74,7 +72,6 @@ function About() {
                   className="vertical-timeline-element--work"
                   contentStyle={{
                     color: "#000",
-                    marginLeft: "10px",
                   }}
                   date="2018 - 2020"
                   iconStyle={{ background: "#1f163e", color: "#fff" }}
@@ -105,7 +102,6 @@ function About() {
                   icon={StartIcon}
                 />
               </VerticalTimeline>
-            </ScrollAnimation>
             <br />
             <br />
 
