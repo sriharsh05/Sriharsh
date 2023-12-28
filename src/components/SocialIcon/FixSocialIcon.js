@@ -1,5 +1,5 @@
 import React from "react";
-import { FaLinkedin, FaGithub } from "react-icons/fa";
+import { FaLinkedin, FaGithub, FaTwitter } from "react-icons/fa";
 import styled from "@emotion/styled";
 import ScrollAnimation from "react-animate-on-scroll";
 
@@ -72,6 +72,15 @@ function FixSocialIcon() {
               rel="noopener noreferrer"
             >
               <FaGithub />
+            </a>
+          </li>
+          <li className="item">
+            <a
+              href="https://twitter.com/sriharsh_05"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <FaTwitter />
             </a>
           </li>
         </ul>
