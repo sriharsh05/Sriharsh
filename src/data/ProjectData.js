@@ -14,7 +14,7 @@ export const ProjectList = [
     title: "Sports Connect",
     description:
       "A sports scheduling application built using node js",
-    tech_stack: ["Node Js", "Postgres", "EJS"],
+    tech_stack: ["Node Js", "Postgresql", "EJS"],
     github_url: "https://github.com/sriharsh05/Sports-Connect",
     demo_url: "",
   },
@@ -66,10 +66,10 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-    name: "NextJs",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+  //   name: "NextJs",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
     name: "Typescript",
@@ -78,22 +78,22 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/git/git-original.svg",
     name: "Git",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
-    name: "React Native",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
+  //   name: "React Native",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nodejs/nodejs-original.svg",
     name: "NodeJS",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
-    name: "Firebase",
-  },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-    name: "MongoDB",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
+  //   name: "Firebase",
+  // },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+  //   name: "MongoDB",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     name: "Python",
@@ -122,10 +122,10 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/materialui/materialui-original.svg",
     name: "Material UI",
   },
-  {
-    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
-    name: "Figma",
-  },
+  // {
+  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/figma/figma-original.svg",
+  //   name: "Figma",
+  // },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/tailwindcss/tailwindcss-plain.svg",
     name: "TailwindCSS",
@@ -133,5 +133,25 @@ export const stackList = [
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/vscode/vscode-original.svg",
     name: "VS Code",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/php/php-original.svg",
+    name: "PHP",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/express/express-original.svg",
+    name: "ExpressJS",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/hugo/hugo-original-wordmark.svg",
+    name: "Hugo",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/postgresql/postgresql-original-wordmark.svg",
+    name: "PostgreSQL",
+  },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
+    name: "mySQL",
   },
 ];
