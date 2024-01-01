@@ -10,6 +10,15 @@ export const ProjectList = [
     demo_url: "sriharsh-sports-pulse.netlify.app/",
   },
   {
+    img: "/promptify.png",
+    title: "Promptify",
+    description:
+      "Discover, create and share creative AI prompts",
+    tech_stack: ["Next JS", "Mongo DB Atlas"],
+    github_url: "https://github.com/sriharsh05/Promptify",
+    demo_url: "https://promptify-ngh21y4go-sriharshs-projects.vercel.app/",
+  },
+  {
     img: "/sports-connect.png",
     title: "Sports Connect",
     description:
@@ -36,15 +45,6 @@ export const ProjectList = [
     github_url: "https://github.com/sriharsh05/WorkAssist",
     demo_url: "",
   },
-  {
-    img: "/bookish.png",
-    title: "Bookish",
-    description:
-      "An E-Book Library",
-    tech_stack: ["Bootstrap", "JavaScript", "php", "MySQL"],
-    github_url: "https://github.com/sriharsh05/Bookish",
-    demo_url: "",
-  },
 ];
 
 // --------------------------------------- Skills
@@ -66,10 +66,10 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/react/react-original.svg",
     name: "ReactJS",
   },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
-  //   name: "NextJs",
-  // },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/nextjs/nextjs-original.svg",
+    name: "NextJs",
+  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/typescript/typescript-original.svg",
     name: "Typescript",
@@ -90,10 +90,10 @@ export const stackList = [
   //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/firebase/firebase-plain.svg",
   //   name: "Firebase",
   // },
-  // {
-  //   img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
-  //   name: "MongoDB",
-  // },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mongodb/mongodb-original.svg",
+    name: "MongoDB",
+  },
   {
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/python/python-original.svg",
     name: "Python",
