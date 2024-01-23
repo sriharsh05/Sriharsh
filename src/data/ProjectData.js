@@ -16,7 +16,7 @@ export const ProjectList = [
       "Discover, create and share creative AI prompts",
     tech_stack: ["Next JS", "Mongo DB Atlas"],
     github_url: "https://github.com/sriharsh05/Promptify",
-    demo_url: "https://promptify-ngh21y4go-sriharshs-projects.vercel.app/",
+    demo_url: "https://promptify-alpha-ochre.vercel.app/",
   },
   {
     img: "/sports-connect.png",
