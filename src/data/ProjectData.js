@@ -154,4 +154,8 @@ export const stackList = [
     img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/mysql/mysql-original-wordmark.svg",
     name: "mySQL",
   },
+  {
+    img: "https://raw.githubusercontent.com/devicons/devicon/master/icons/salesforce/salesforce-original.svg",
+    name: "Salesforce",
+  },
 ];

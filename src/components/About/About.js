@@ -26,7 +26,7 @@ function About() {
           </ScrollAnimation>
           <div className="AboutBio">
               <VerticalTimeline>
-                <VerticalTimelineElement
+              <VerticalTimelineElement
                   className="vertical-timeline-element--work"
                   contentStyle={{
                     background: "#1f163e",
@@ -35,7 +35,30 @@ function About() {
                   contentArrowStyle={{
                     borderRight: "7px solid  rgb(33, 150, 243)",
                   }}
-                  date="2023 - present"
+                  date="Feb 2024 - present"
+                  iconStyle={{ background: "#1f163e", color: "#fff" }}
+                  icon={WorkIcon}
+                >
+                  <h3 className="vertical-timeline-element-title">
+                    ATSE intern
+                  </h3>
+                  <h4 className="vertical-timeline-element-subtitle">
+                    Salesforce Inc
+                  </h4>
+                  <p>
+                  Global leader in CRM software, driving customer relationships and 
+                  business growth through cloud-based solutions and social responsibility initiatives.
+                  </p>
+                </VerticalTimelineElement>
+                <VerticalTimelineElement
+                  className="vertical-timeline-element--work"
+                  contentStyle={{
+                    color: "#000",
+                  }}
+                  contentArrowStyle={{
+                    borderRight: "7px solid  rgb(33, 150, 243)",
+                  }}
+                  date="Aug 2023 - Feb 2024"
                   iconStyle={{ background: "#1f163e", color: "#fff" }}
                   icon={WorkIcon}
                 >
