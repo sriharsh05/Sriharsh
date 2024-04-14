@@ -43,7 +43,7 @@ function About() {
                     ATSE intern
                   </h3>
                   <h4 className="vertical-timeline-element-subtitle">
-                    Salesforce Inc
+                    Salesforce India
                   </h4>
                   <p>
                   Global leader in CRM software, driving customer relationships and 
