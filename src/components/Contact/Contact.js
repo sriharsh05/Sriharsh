@@ -2,7 +2,6 @@ import React, { useState } from "react";
 import { ContactWrapper, Email } from "./ContactElements";
 import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
-import Zoom from '@mui/material/Zoom';
 
 import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
@@ -32,7 +31,7 @@ function Contact() {
                   open={showTooltip}
                   onClose={() => setShowTooltip(false)}
                   title="Copied!"
-                  TransitionComponent={Zoom}
+                  // TransitionComponent={Zoom}
                   disableFocusListener
                   disableHoverListener
                   disableTouchListener
