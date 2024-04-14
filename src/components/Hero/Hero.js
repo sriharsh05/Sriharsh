@@ -7,16 +7,16 @@ import {
   HeroLeft,
   HeroRight,
   Image,
-  ScrollDown,
-  ScrollLink,
+  // ScrollDown,
+  // ScrollLink,
 } from "./HeroElements";
 import { TypeAnimation } from 'react-type-animation';
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 
 function Hero() {
   const [isOpen, setIsOpen] = useState(false);
   const [showSubtitle, setShowSubtitle] = useState(false);
-  const [showScrollDown, setShowScrollDown] = useState(false);
+  // const [showScrollDown, setShowScrollDown] = useState(false);
 
   const toggle = () => {
     setIsOpen(!isOpen);
@@ -28,7 +28,7 @@ function Hero() {
       <HeroContainer>
         <HeroWrapper>
           <HeroLeft>
-            <ScrollAnimation animateIn="fadeIn" >
+            {/* <ScrollAnimation animateIn="fadeIn" > */}
               <TypeAnimation
                 cursor={false}
                 sequence={[
@@ -72,19 +72,19 @@ function Hero() {
                   repeat={Infinity}
                 />
               }
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
           </HeroLeft>
           <HeroRight>
-            <ScrollAnimation animateIn="fadeIn">
+            {/* <ScrollAnimation animateIn="fadeIn"> */}
               <Image
                 src="/man-svgrepo-com.svg"
                 alt="man-svgrepo"
               />
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
           </HeroRight>
         </HeroWrapper>
-        {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
+        {/* {showScrollDown &&<ScrollAnimation animateIn="flipInX" offset={0}>
         <ScrollDown to="projects" id="scrollDown">
           <ScrollLink>
             Scroll down
@@ -94,7 +94,7 @@ function Hero() {
             />
           </ScrollLink>
         </ScrollDown>
-        </ScrollAnimation>}
+        </ScrollAnimation>} */}
       </HeroContainer>
     </main>
   );

@@ -4,7 +4,7 @@ import { MdContentCopy } from "react-icons/md";
 import { IconButton, Tooltip } from "@mui/material";
 import Zoom from '@mui/material/Zoom';
 
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 function Contact() {
   const [showTooltip, setShowTooltip] = useState(false);
   const copyToClipboard = () => {
@@ -20,7 +20,7 @@ function Contact() {
 
       <div className="Container">
         <div className="SectionTitle">Get In Touch</div>
-        <ScrollAnimation animateIn="fadeIn" >
+        {/* <ScrollAnimation animateIn="fadeIn" > */}
           <div className="BigCard">
             <Email>
               <div style={{ display: 'flex', alignItems: 'center', columnGap: '20px', rowGap: '10px', flexWrap: 'wrap', justifyContent: 'center' }} >
@@ -53,7 +53,7 @@ function Contact() {
               </a>
             </Email>
           </div>
-        </ScrollAnimation>
+        {/* </ScrollAnimation> */}
 
       </div>
     </ContactWrapper>

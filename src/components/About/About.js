@@ -8,7 +8,7 @@ import {
   TechName,
   ContactWrapper,
 } from "./AboutElements";
-import ScrollAnimation from "react-animate-on-scroll";
+// import ScrollAnimation from "react-animate-on-scroll";
 import {
   VerticalTimeline,
   VerticalTimelineElement,
@@ -21,9 +21,9 @@ function About() {
       <div className="Container">
         <div className="SectionTitle">About Me</div>
         <div className="BigCard">
-          <ScrollAnimation animateIn="fadeInLeft">
+          {/* <ScrollAnimation animateIn="fadeInLeft"> */}
             <Image src="/man-svgrepo-com.svg" alt="man-svgrepo" />
-          </ScrollAnimation>
+          {/* </ScrollAnimation> */}
           <div className="AboutBio">
               <VerticalTimeline>
               <VerticalTimelineElement
@@ -128,20 +128,20 @@ function About() {
             <br />
             <br />
 
-            <ScrollAnimation animateIn="fadeInLeft">
+            {/* <ScrollAnimation animateIn="fadeInLeft"> */}
               <div className="tagline2">
                 I have become confident using the following technologies:
               </div>
-            </ScrollAnimation>
+            {/* </ScrollAnimation> */}
 
             <Technologies>
               {stackList.map((stack, index) => (
-                <ScrollAnimation animateIn="fadeInLeft" key={index}>
+                // <ScrollAnimation animateIn="fadeInLeft" key={index}>
                   <Tech key={index} className="tech">
                     <TechImg src={stack.img} alt={stack.name} />
                     <TechName>{stack.name}</TechName>
                   </Tech>
-                </ScrollAnimation>
+                // </ScrollAnimation>
               ))}
             </Technologies>
           </div>
