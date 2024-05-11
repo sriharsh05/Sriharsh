@@ -1,6 +1,15 @@
 // --------------------------------------- Project List
 export const ProjectList = [
   {
+    img: "/Interviewmate.png",
+    title: "InterviewMate",
+    description:
+      "Interview application using AI",
+    tech_stack: ["React JS", "Type Script", "OpenAI"],
+    github_url: "https://github.com/konavivekramakrishna/Interviewmate_fe",
+    demo_url: "",
+  },
+  {
     img: "/sports-pulse.png",
     title: "Sports Pulse",
     description:
